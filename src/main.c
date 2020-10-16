@@ -7,11 +7,9 @@
 /*
  * Handler in case our application overflows the stack
  */
-extern void vApplicationStackOverflowHook(xTaskHandle *pxTask, signed portCHAR *pcTaskName);
-
 void vApplicationStackOverflowHook(
-    xTaskHandle *pxTask __attribute__((unused)), 
-    signed portCHAR *pcTaskName __attribute__((unused))) {
+	TaskHandle_t xTask __attribute__((unused)),
+    char *pcTaskName __attribute__((unused))) {
 
 	for (;;);
 }
