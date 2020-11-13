@@ -85,6 +85,10 @@
  * See http://www.freertos.org/a00110.html.
  *----------------------------------------------------------*/
 
+#define vPortSVCHandler sv_call_handler
+#define xPortPendSVHandler pend_sv_handler
+#define xPortSysTickHandler sys_tick_handler
+
 #define configUSE_PREEMPTION		1
 #define configUSE_IDLE_HOOK		0
 #define configUSE_TICK_HOOK		0
