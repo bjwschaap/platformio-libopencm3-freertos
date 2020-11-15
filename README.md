@@ -8,4 +8,5 @@ Use this sample project as a template for your own libopencm3 + FreeRTOS STM32 p
 ## Contributors
 I got this working thanks to:
 * the original author of this example code: [Warren Gay](https://github.com/ve3wwg)
-* [Maximilian Gerhardt](https://github.com/maxgerhardt) from the PlatformIO community.
+* [Maximilian Gerhardt](https://github.com/maxgerhardt) from the PlatformIO community
+* [deltaphi](https://github.com/deltaphi), who fixed the debug build
